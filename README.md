@@ -16,6 +16,8 @@ For this lab, we will be experimenting with a variety of sensors, sending the da
  
 **b. How many bits of resolution does the analog to digital converter (ADC) on the Arduino have?**
 
+10 bits, 2^10
+
 ## Part B. RGB LED
 
 **How might you use this with only the parts in your kit? Show us your solution.**
