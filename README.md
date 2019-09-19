@@ -33,11 +33,13 @@ From 0 to 600
 Yes, as the pressure applied increases, the voltage decreases. 
 
 **c. Can you change the LED fading code values so that you get the full range of output voltages from the LED when using your FSR?**
-Plugged the soource of anode to the end of FSR
+Connected the common node of the anode to A0, where the voltage is controlled by the pressure resistor. 
+
 **d. What resistance do you need to have in series to get a reasonable range of voltages from each sensor?**
 
 
 **e. What kind of relationship does the resistance have as a function of stimulus? (e.g., linear?)**
+Yes, linear almost.
 
 ### 2. Accelerometer
  
