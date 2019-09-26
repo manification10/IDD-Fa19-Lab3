@@ -51,6 +51,7 @@ Photo Cell and Softspot are Linear.
 ### 2. Accelerometer
  
 **a. Include your accelerometer read-out code in your write-up.**
+![LED reading input from X,Y,Z](https://youtu.be/Orq72ozvCmg)
 
 ```
 // Basic demo for accelerometer readings from Adafruit LIS3DH
@@ -128,11 +129,6 @@ void loop() {
 }
 ```
 
-### 3. IR Proximity Sensor
-
-**a. Describe the voltage change over the sensing range of the sensor. A sketch of voltage vs. distance would work also. Does it match up with what you expect from the datasheet?**
-
-**b. Upload your merged code to your lab report repository and link to it here.**
 
 ## Optional. Graphic Display
 
