@@ -21,25 +21,32 @@ For this lab, we will be experimenting with a variety of sensors, sending the da
 ## Part B. RGB LED
 
 **How might you use this with only the parts in your kit? Show us your solution.**
+![Ohm resistors](./ohm_resistors.jpeg)
+
+I used the Ohm resistors in the kit.
 
 ## Part C. Voltage Varying Sensors 
  
 ### 1. FSR, Flex Sensor, Photo cell, Softpot
 
 **a. What voltage values do you see from your force sensor?**
-From 0 to 600
+From 0 to 1023
 
 **b. What kind of relationship does the voltage have as a function of the force applied? (e.g., linear?)**
-Yes, as the pressure applied increases, the voltage decreases. 
+
+FSR and Softpot are Logorithmic.
+Flex Sensor and PhotoCell are linear.
 
 **c. Can you change the LED fading code values so that you get the full range of output voltages from the LED when using your FSR?**
+
 Connected the common node of the anode to A0, where the voltage is controlled by the pressure resistor. 
 
 **d. What resistance do you need to have in series to get a reasonable range of voltages from each sensor?**
 
 
 **e. What kind of relationship does the resistance have as a function of stimulus? (e.g., linear?)**
-Yes, linear almost.
+FSR and Flex Sensor are Logorithmic.
+Photo Cell and Softspot are Linear.
 
 ### 2. Accelerometer
  
