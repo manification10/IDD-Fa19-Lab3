@@ -128,7 +128,7 @@ void loop() {
   delay(200); 
 }
 ```
-
+![Source](https://youtu.be/Orq72ozvCmg)
 
 ## Optional. Graphic Display
 
@@ -151,6 +151,13 @@ To setup states everytime there is a switching of state. The setup is different 
 1024 byte-sized data samples
 
 **d. How would you get analog data from the Arduino analog pins to be byte-sized? How about analog data from the I2C devices?**
+With int to byte char in Wire Library
+```byte hiByte = highByte(wordVal);
+byte loByte = lowByte(wordVal);
+Serial.println(hiByte, HEX);
+Serial.println(loByte,HEX);
+```
+[Source](https://forum.arduino.cc/index.php?topic=72993.0)
 
 **e. Alternately, how would we store the data if it were bigger than a byte? (hint: take a look at the [EEPROMPut](https://www.arduino.cc/en/Reference/EEPROMPut) example)**
 
