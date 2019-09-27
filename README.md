@@ -238,7 +238,7 @@ I am writing the state based on the movement of the accelerometer to the EEPROM.
 I am displaying the movement of the bird on the serial monitor based on the last state being read from the EEPROM. 
  
 **a. Insert here a copy of your final state diagram.**
-![Flying Bird with Data Logger State Diagram](./bird movement.jpg)
+![Flying Bird with Data Logger State Diagram](./bird_movement.jpg)
 
 ### 3. Create your data logger!
  
