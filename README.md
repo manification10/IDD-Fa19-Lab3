@@ -51,7 +51,8 @@ Photo Cell and Softspot are Linear.
 ### 2. Accelerometer
  
 **a. Include your accelerometer read-out code in your write-up.**
-![LED reading input from X,Y,Z](https://youtu.be/Orq72ozvCmg)
+
+![LED reading input from X,Y,Z](https://www.youtube.com/watch?v=Orq72ozvCmg&feature=youtu.be)
 
 ```
 // Basic demo for accelerometer readings from Adafruit LIS3DH
