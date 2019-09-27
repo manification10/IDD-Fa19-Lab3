@@ -243,3 +243,4 @@ I am displaying the movement of the bird on the serial monitor based on the last
 ### 3. Create your data logger!
  
 **a. Record and upload a short demo video of your logger in action.**
+![DEMO](https://youtu.be/3NUsHWjD0Q8)
