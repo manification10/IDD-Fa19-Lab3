@@ -228,8 +228,17 @@ void loop() {
 }
 ```
 ### 2. Design your logger
+
+I built a toy to translate bird motion to the Serial Monitor. 
+When the bird flies up the feather opens. /^v^\
+When the bird flies down the feather closes. \^v^/
+The bird moves left and right on the screen based on the movement of the accelerometer. 
+
+I am writing the state based on the movement of the accelerometer to the EEPROM. 
+I am displaying the movement of the bird on the serial monitor based on the last state being read from the EEPROM. 
  
 **a. Insert here a copy of your final state diagram.**
+![Flying Bird with Data Logger State Diagram](./bird movement.jpg)
 
 ### 3. Create your data logger!
  
