@@ -139,10 +139,16 @@ void loop() {
 ### 1. Reading and writing values to the Arduino EEPROM
 
 **a. Does it matter what actions are assigned to which state? Why?**
+Yes. 
+![State Change](./2021.png)
+A Read action should come right after the Write action to read values from the EEPROM. 
 
 **b. Why is the code here all in the setup() functions and not in the loop() functions?**
+To setup states everytime there is a switching of state. The setup is different for different states. We also want to take actions only when the state is changed and not on a loop constantly. 
 
 **c. How many byte-sized data samples can you store on the Atmega328?**
+
+1024 byte-sized data samples
 
 **d. How would you get analog data from the Arduino analog pins to be byte-sized? How about analog data from the I2C devices?**
 
