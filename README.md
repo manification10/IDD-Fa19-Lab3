@@ -245,3 +245,4 @@ I am displaying the movement of the bird on the serial monitor based on the last
  
 **a. Record and upload a short demo video of your logger in action.**
 ![DEMO](https://youtu.be/yKmn7pGFYl8)
+![Code](./acceldemo_experiment.ino)
